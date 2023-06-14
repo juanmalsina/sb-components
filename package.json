@@ -5,8 +5,8 @@
   "typings": "dist/index.d.ts",
   "license": "MIT",
   "repository": {
-    "url": "https://github.com/juuanmalsina/sb-components",
-    "type": "git"
+    "type": "git",
+    "url": "https://github.com/juuanmalsina/sb-components.git"
   },
   "peerDependencies": {
     "react": ">=18.2.0",
