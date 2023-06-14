@@ -6,7 +6,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "default": "https://github.com/juuanmalsina/sb-components"
+    "repositoryUrl": "https://github.com/juuanmalsina/sb-components"
   },
   "peerDependencies": {
     "react": ">=18.2.0",
