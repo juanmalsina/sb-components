@@ -27,7 +27,7 @@ jobs:
           node-version: 18.16
 
       - name: Install Dependencies
-        run: npm install --force
+        run: npm install
 
       - name: Build App
         run: npm run build
