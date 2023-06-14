@@ -1,7 +1,7 @@
 import React from "react";
 import "./mylabel.css";
 
-interface MyLabelProps {
+export interface MyLabelProps {
   /*
    *Es el texto que va en el label custom
    */
@@ -25,7 +25,7 @@ interface MyLabelProps {
   fontColor?: string;
 }
 
-const MyLabel = ({
+export const MyLabel = ({
   label = "No label",
   size = "normal",
   allCaps = false,
@@ -41,5 +41,3 @@ const MyLabel = ({
     </span>
   );
 };
-
-export default MyLabel;
